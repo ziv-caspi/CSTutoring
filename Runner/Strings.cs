@@ -2,7 +2,10 @@
 {
     public class Strings
     {
-        public static int Exercise10(string first, string second) {
+        /// <summary>
+        /// Returns How many times the second string appears in the first string
+        /// </summary>
+        public static int CountSubStringRepeats(string first, string second) {
             int repeatsFound = 0;
             int currentStringIndex = 0;
             

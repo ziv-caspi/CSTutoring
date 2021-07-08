@@ -6,7 +6,7 @@ namespace Runner
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Strings.Exercise10("helloasdhelloAAAhello", "hello"));
+            Console.WriteLine(Strings.CountSubStringRepeats("helloasdhelloAAAhello", "hello"));
         }
     }
 }
